@@ -14,6 +14,7 @@ Components can manage their own state and lifecycle methods, allowing for dynami
 | 6   | [How to split a component into smaller components](#how-to-split-a-component-into-smaller-components) |
 | 7   | [Pure components](#pure-components) |
 | 8   | [Prop drilling](#prop-drilling) |
+| 9   | [Higher-order components](#higher-order-components) |
 
 
 ## Functional vs Class Components
@@ -250,3 +251,6 @@ Prop drilling, refers to the process of passing data through multiple layers of 
 1. **Context API**: React's Context API allows you to create a global state that can be accessed by any component in the tree without having to pass props down manually. This is useful for sharing data like themes, user authentication, or settings across multiple components.
 2. **State Management Libraries**: Libraries like Redux, MobX, or Zustand provide a more structured way to manage global state and avoid prop drilling. They allow you to store state in a central location and access it from any component without passing props through every level.
 3. **Composition**: Instead of passing props through multiple layers, you can compose components in a way that allows them to access the necessary data directly from their parent or a higher-level component.
+
+## Higher-order components
+Higher-order components (HOCs) are functions that take a component and return a new component with additional functionality. They are a pattern in React for reusing component logic. HOCs can be used to enhance components by adding features like logging, data fetching, or state management without modifying the original component.
