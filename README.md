@@ -1,2 +1,10 @@
-# interview-prep
-My personal cheat sheet and practice hub for technical interviews – covering React, Node.js, Java, and other topics I want to master.
+# Zero to Hired
+
+In this repository, I'll add my cheatsheets and resources that helped me land a job in tech. Feel free to use them as you wish. It is still a work in progress, so if you have any suggestions or improvements, please open an issue or a pull request.
+
+## Contents
+- [JavaScript](./javascript.md)
+- [React](./react.md)
+- [Node.js](./nodejs.md)
+- [Algorithms] (https://github.com/RubenOAlvarado/algorithms)
+- [DataStructures] (https://github.com/RubenOAlvarado/data-structures)
