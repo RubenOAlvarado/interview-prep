@@ -9,11 +9,8 @@
 | 3   | [What are the limitations of React?](#what-are-the-limitations-of-react) |
 | 4   | [What is JSX?](#what-is-jsx) |
 | 5   | [What is the Virtual DOM?](#what-is-the-virtual-dom) |
-
-## Topics
-- [Components](components.md)
-- [State and Props](state-and-props.md)
-- [Hooks](hooks.md)
+| 6   | [Topics](#topics) |
+| 7   | [Recommended Resources](#recommended-resources) |
 
 ## What is React?
 React is an open-source JavaScript library for building user interfaces, particularly single-page applications where you need a fast, interactive user experience. It allows developers to create large web applications that can change data without reloading the page. React is maintained by Facebook and a community of individual developers and companies. It uses a component-based architecture, enabling the creation of reusable UI components.
@@ -44,3 +41,13 @@ A virtual representation of the real DOM that is kept in memory and synced with 
 
 ### How does it work?
 For every DOM object, there is a corresponding virtual DOM object. Consider a virtual DOM object as a blueprint of the real DOM object. When a JSX element gets rendered, every virtual DOM object is updated. React then compares the new virtual DOM with the previous one and calculates the difference (diffing). It then updates only the parts of the real DOM that have changed, which is more efficient than re-rendering the entire DOM.
+
+## Topics
+- [Components](components.md)
+- [State and Props](state-and-props.md)
+- [Hooks](hooks.md)
+
+## Recommended Resources
+- [React Official Documentation](https://reactjs.org/docs/getting-started.html)
+- [React Tutorial for Beginners](https://reactjs.org/tutorial/tutorial.html)
+- [React Wiki](https://www.reactjs.wiki/)
