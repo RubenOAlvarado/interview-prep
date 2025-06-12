@@ -1,5 +1,10 @@
 # Javascript frequently asked questions
 
+## Recommended Reading
+# [JavaScript Basics](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps)
+# [JavaScript Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
+# [Javascript Info](https://www.javascript.info/)
+
 ## Table of Contents
 
 | No. | Questions |
