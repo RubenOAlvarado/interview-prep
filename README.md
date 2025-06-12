@@ -4,7 +4,7 @@ In this repository, I'll add my cheatsheets and resources that helped me land a 
 
 ## Contents
 - [JavaScript](./javascript.md)
-- [React](./react.md)
+- [React](./react/README.md)
 - [Node.js](./nodejs.md)
 - [Algorithms](https://github.com/RubenOAlvarado/algorithms)
 - [Data Structures](https://github.com/RubenOAlvarado/data-structures)
