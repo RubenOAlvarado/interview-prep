@@ -11,6 +11,10 @@
 | 5   | [Interview Question: Shallow or Deep Copy?](#interview-question-shallow-or-deep-copy) |
 | 6   | [Explain the concept of currying in JavaScript.](#explain-the-concept-of-currying-in-javascript) |
 | 7   | [Interview Question: Currying Example](#interview-question-currying-example) |
+| 8   | [Wht is a callback function?](#wht-is-a-callback-function) |
+| 9   | [What is callback hell and how to prevent?](#what-is-callback-hell) |
+| 10  | [What are Promises?](#what-are-promises) |
+| 11  | [What is async/await?](#what-is-asyncawait) |
 | 2   | [Recommended Reading](#recommended-reading) |
 
 ### What is JavaScript?
@@ -98,6 +102,28 @@ console.log(triple(double(2))); // What will this output?
 
 **Key Takeaway:**
 Currying allows functions to be broken down into smaller, reusable functions that can be called with fewer arguments, enhancing modularity and readability. In this example, `double` and `triple` are specialized functions derived from the general `multiply` function.
+
+### Wht is a callback function?
+A callback function is a function that is passed as an argument to another function and is executed after the completion of that function. Callbacks are commonly used in asynchronous programming to handle operations that take time, such as API calls or file reading. They allow developers to define what should happen once an operation is complete, enabling non-blocking code execution.
+
+### What is callback hell and how to prevent?
+Callback hell, also known as "Pyramid of Doom," refers to the situation where multiple nested callbacks make the code difficult to read and maintain. This often occurs in asynchronous programming when callbacks are used extensively, leading to deeply nested structures. To prevent callback hell, developers can use several techniques:
+1. **Modularization**: Break down complex functions into smaller, reusable functions to reduce nesting.
+2. **Promises**: Use Promises to handle asynchronous operations, allowing for cleaner chaining of operations without deep nesting.
+3. **Async/Await**: Use the `async` and `await` keywords to write asynchronous code that looks synchronous, improving readability and maintainability.
+
+### What are Promises?
+Promises are objects in JavaScript that represent the eventual completion (or failure) of an asynchronous operation and its resulting value. A Promise can be in one of three states:
+1. **Pending**: The initial state, neither fulfilled nor rejected.
+2. **Fulfilled**: The operation completed successfully, and the Promise has a resulting value.
+3. **Rejected**: The operation failed, and the Promise has a reason for the failure (an error).
+Promises provide a way to handle asynchronous operations more elegantly than callbacks, allowing developers to chain operations and handle errors in a more structured manner.
+
+### What is async/await?
+`async/await` is a syntax in JavaScript that allows developers to write asynchronous code in a more synchronous style. It is built on top of Promises and provides a way to handle asynchronous operations without the need for chaining `.then()` methods.
+- The `async` keyword is used to declare a function as asynchronous, allowing it to use the `await` keyword inside.
+- The `await` keyword is used to pause the execution of the async function until the Promise is resolved or rejected, allowing for cleaner and more readable code.
+
 
 ### Recommended Reading
 - [JavaScript Basics](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps)

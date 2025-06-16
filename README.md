@@ -44,3 +44,11 @@ Guidelines:
 ## 📜 License
 
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
+## 📫 Keep in Touch
+
+Feel free to reach out for any questions, suggestions, or just to connect!
+- [Ruben O. Alvarado](https://github.com/RubenOAlvarado)
+- [LinkedIn](https://www.linkedin.com/in/ruben-alvarado-molina-9020010/)
+- [X (twitter)](https://twitter.com/RubenOAlvarado)
+- [Instagram](https://www.instagram.com/alvaradorubo/)
