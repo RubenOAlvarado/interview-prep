@@ -17,7 +17,7 @@ To prepare your S.T.A.R. responses, consider the folowing table, pick up to 3 st
 
 ## Example of a S.T.A.R. response
 ### Question: "Tell me about a time when you had to work under pressure. How did you manage it?"
-**Situation**: In my previous role as a project manager, we had a critical deadline approaching for a major client project. The team was behind schedule due to unexpected technical challenges, and the client was anxious about the delivery.
-**Task**: My task was to ensure that we met the deadline while maintaining the quality of the deliverables. I needed to find a way to motivate the team and streamline our processes to catch up.
-**Action**: I organized a team meeting to assess the situation and identify bottlenecks. We prioritized tasks, delegated responsibilities, and implemented daily stand-up meetings to track progress. I also communicated transparently with the client, providing regular updates and managing their expectations.
-**Result**: As a result, we were able to complete the project on time, and the client was satisfied with the quality of our work. The experience taught me the importance of effective communication and teamwork under pressure, and it strengthened my ability to lead in challenging situations.
+- **Situation**: In my previous role as a project manager, we had a critical deadline approaching for a major client project. The team was behind schedule due to unexpected technical challenges, and the client was anxious about the delivery.
+- **Task**: My task was to ensure that we met the deadline while maintaining the quality of the deliverables. I needed to find a way to motivate the team and streamline our processes to catch up.
+- **Action**: I organized a team meeting to assess the situation and identify bottlenecks. We prioritized tasks, delegated responsibilities, and implemented daily stand-up meetings to track progress. I also communicated transparently with the client, providing regular updates and managing their expectations.
+- **Result**: As a result, we were able to complete the project on time, and the client was satisfied with the quality of our work. The experience taught me the importance of effective communication and teamwork under pressure, and it strengthened my ability to lead in challenging situations.
