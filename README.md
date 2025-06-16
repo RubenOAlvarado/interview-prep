@@ -4,14 +4,18 @@ A curated repository of frequently asked interview questions and coding challeng
 
 ## 📖 Table of Contents
 1. [Introduction](#introduction)
-2. [Cs Fundamentals](#cs-fundamentals)
-3. [Language Specific Guides](#language-specific-guides)
-4. [Contributing](#contributing)
-5. [License](#license)
-6. [Keep in Touch](#keep-in-touch)
+2. [Behavioral Questions](#behavioral-questions)
+3. [Cs Fundamentals](#cs-fundamentals)
+4. [Language Specific Guides](#language-specific-guides)
+5. [Contributing](#contributing)
+6. [License](#license)
+7. [Keep in Touch](#keep-in-touch)
 
 ## Introduction
 This repository serves as a growing collection of interview questions, coding challenges, and conceptual explanations organized by topic and language. Whether you're prepping for FAANG or startup interviews, this resource aims to streamline your study process.
+
+## 🧠 Behavioral Questions
+Core behavioral questions that help you articulate your experiences, problem-solving skills, and teamwork abilities. These questions are crucial for demonstrating your fit within a company's culture and values.
 
 ## 🖥️ Cs Fundamentals
 Core concepts and principles that form the foundation of computer science, including algorithms, data structures, and system design. This section is essential for understanding how to solve problems efficiently and effectively in software development.
