@@ -20,17 +20,33 @@
 ### What is JavaScript?
 JavaScript is a high-level, dynamic, untyped, and interpreted programming language. It is a core technology of the World Wide Web, alongside HTML and CSS, and enables interactive web pages. JavaScript is an event-driven, functional, and imperative language known for its versatility in both client-side and server-side development.
 
+<div align="right">
+    <b><a href="#table-of-contents">↥ back to top</a></b>
+</div>
+
 ### Explain the difference between `var`, `let`, and `const`.
 `var`, `let`, and `const` are all used to declare variables in JavaScript, but they have different scopes and behaviors:
 - `var`: Declares a variable that is function-scoped or globally scoped. It can be re-declared and updated.
 - `let`: Declares a block-scoped variable that can be updated but not re-declared within the same scope.
 - `const`: Declares a block-scoped variable that cannot be updated or re-declared. It must be initialized at the time of declaration.
 
+<div align="right">
+    <b><a href="#table-of-contents">↥ back to top</a></b>
+</div>
+
 ### Explain the difference between `null` and `undefined`.
 `null` is an assignment value that represents the intentional absence of any object value. It is a primitive value that can be assigned to a variable to indicate that it has no value. `undefined`, on the other hand, is a type itself and indicates that a variable has been declared but has not yet been assigned a value. In other words, `undefined` means a variable exists but has no value, while `null` is an explicit assignment of no value. 
 
+<div align="right">
+    <b><a href="#table-of-contents">↥ back to top</a></b>
+</div>
+
 ### What's the difference between deep and shallow copy?
 A shallow copy creates a new object that is a copy of the original object, but it only copies the references to the nested objects. If the nested objects are modified, the changes will reflect in both the original and copied objects. A deep copy, however, creates a new object and recursively copies all nested objects, ensuring that changes to the nested objects in the copied object do not affect the original object.
+
+<div align="right">
+    <b><a href="#table-of-contents">↥ back to top</a></b>
+</div>
 
 ### Interview Question: Shallow or Deep Copy?
 What does this code output?
@@ -65,8 +81,16 @@ Munich
 Shallow copies copy references to nested objects, so changes to nested properties in the copied object will affect the original object. In contrast, deep copies create entirely new objects, preventing any changes in the copied object from affecting the original.
 The spread operator (`...`) creates a shallow copy of the `original` object, meaning that while the top-level properties are copied, nested objects and arrays are still referenced. Therefore, modifications to nested properties in the `shallowCopy` will reflect in the `original` object.
 
+<div align="right">
+    <b><a href="#table-of-contents">↥ back to top</a></b>
+</div>
+
 ### Explain the concept of currying in JavaScript.
 Currying is a functional programming technique in JavaScript where a function is transformed into a sequence of functions, each taking a single argument. This allows for partial application of functions, enabling the creation of more specialized functions from general ones. Currying can improve code readability and reusability by allowing functions to be called with fewer arguments over time.
+
+<div align="right">
+    <b><a href="#table-of-contents">↥ back to top</a></b>
+</div>
 
 ### Interview Question: Currying Example
 What does this code output?
@@ -103,14 +127,26 @@ console.log(triple(double(2))); // What will this output?
 **Key Takeaway:**
 Currying allows functions to be broken down into smaller, reusable functions that can be called with fewer arguments, enhancing modularity and readability. In this example, `double` and `triple` are specialized functions derived from the general `multiply` function.
 
-### Wht is a callback function?
+<div align="right">
+    <b><a href="#table-of-contents">↥ back to top</a></b>
+</div>
+
+### What is a callback function?
 A callback function is a function that is passed as an argument to another function and is executed after the completion of that function. Callbacks are commonly used in asynchronous programming to handle operations that take time, such as API calls or file reading. They allow developers to define what should happen once an operation is complete, enabling non-blocking code execution.
+
+<div align="right">
+    <b><a href="#table-of-contents">↥ back to top</a></b>
+</div>
 
 ### What is callback hell and how to prevent?
 Callback hell, also known as "Pyramid of Doom," refers to the situation where multiple nested callbacks make the code difficult to read and maintain. This often occurs in asynchronous programming when callbacks are used extensively, leading to deeply nested structures. To prevent callback hell, developers can use several techniques:
 1. **Modularization**: Break down complex functions into smaller, reusable functions to reduce nesting.
 2. **Promises**: Use Promises to handle asynchronous operations, allowing for cleaner chaining of operations without deep nesting.
 3. **Async/Await**: Use the `async` and `await` keywords to write asynchronous code that looks synchronous, improving readability and maintainability.
+
+<div align="right">
+    <b><a href="#table-of-contents">↥ back to top</a></b>
+</div>
 
 ### What are Promises?
 Promises are objects in JavaScript that represent the eventual completion (or failure) of an asynchronous operation and its resulting value. A Promise can be in one of three states:
@@ -119,10 +155,18 @@ Promises are objects in JavaScript that represent the eventual completion (or fa
 3. **Rejected**: The operation failed, and the Promise has a reason for the failure (an error).
 Promises provide a way to handle asynchronous operations more elegantly than callbacks, allowing developers to chain operations and handle errors in a more structured manner.
 
+<div align="right">
+    <b><a href="#table-of-contents">↥ back to top</a></b>
+</div>
+
 ### What is async/await?
 `async/await` is a syntax in JavaScript that allows developers to write asynchronous code in a more synchronous style. It is built on top of Promises and provides a way to handle asynchronous operations without the need for chaining `.then()` methods.
 - The `async` keyword is used to declare a function as asynchronous, allowing it to use the `await` keyword inside.
 - The `await` keyword is used to pause the execution of the async function until the Promise is resolved or rejected, allowing for cleaner and more readable code.
+
+<div align="right">
+    <b><a href="#table-of-contents">↥ back to top</a></b>
+</div>
 
 
 ### Recommended Reading

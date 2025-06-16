@@ -27,12 +27,20 @@ Key differences include:
 - **Use of `this`**: In class components, `this` refers to the component instance, while in functional components, `this` is not used, making them more straightforward.
 - **Props**: Both types of components can accept props, but functional components can destructure props directly in the function parameters, making them cleaner.
 
+<div align="right">
+    <b><a href="#table-of-contents">↥ back to top</a></b>
+</div>
+
 ## Component Lifecycle
 The component lifecycle in React refers to the series of methods that are invoked at different stages of a component's existence, from creation to destruction. Understanding the lifecycle is crucial for managing side effects, optimizing performance, and ensuring proper resource management.
 The lifecycle methods can be categorized into three phases:
 1. **Mounting**: When a component is being created and inserted into the DOM.
 2. **Updating**: When a component is being re-rendered due to changes in state or props.
 3. **Unmounting**: When a component is being removed from the DOM.
+
+<div align="right">
+    <b><a href="#table-of-contents">↥ back to top</a></b>
+</div>
 
 ### Example of a class component lifecycle:
 
@@ -70,6 +78,10 @@ class MyComponent extends React.Component {
 }
 ```
 
+<div align="right">
+    <b><a href="#table-of-contents">↥ back to top</a></b>
+</div>
+
 ### Example of a functional component lifecycle using hooks:
 
 ```javascript
@@ -97,11 +109,19 @@ function MyComponent() {
 }
 ```
 
+<div align="right">
+    <b><a href="#table-of-contents">↥ back to top</a></b>
+</div>
+
 ## JSX and his relation with components
 JSX (JavaScript XML) is a syntax extension for JavaScript that allows developers to write HTML-like code within JavaScript files. It is commonly used in React to describe the UI structure and is transformed into JavaScript function calls by tools like Babel.
 JSX is closely related to components in React because it provides a way to define the structure and appearance of components in a declarative manner. Each JSX element corresponds to a React component, allowing developers to create complex UIs by composing smaller, reusable components.
 JSX allows for a more intuitive and readable way to define the UI, as it closely resembles HTML. It supports embedding JavaScript expressions within curly braces `{}`, enabling dynamic content rendering based on component state or props.
 JSX also supports nesting components, allowing developers to create a hierarchy of components that can be easily managed and reused. This composability is a key feature of React, enabling the creation of complex UIs from simple building blocks.
+
+<div align="right">
+    <b><a href="#table-of-contents">↥ back to top</a></b>
+</div>
 
 ## Differences between controlled and uncontrolled components
 Controlled and uncontrolled components in React refer to how form elements (like input fields) manage their state and handle user input.
@@ -147,6 +167,10 @@ function UncontrolledInput() {
     );
 }
 ```
+
+<div align="right">
+    <b><a href="#table-of-contents">↥ back to top</a></b>
+</div>
 
 ## How to pass data between components
 In React, data can be passed between components using props (short for properties). Props are a way to pass data from a parent component to a child component, allowing for dynamic rendering and interaction within the UI. Here's how you can pass data between components:
@@ -233,6 +257,10 @@ function SiblingTwo({ sharedData }) {
 }
 ```
 
+<div align="right">
+    <b><a href="#table-of-contents">↥ back to top</a></b>
+</div>
+
 ## How to split a component into smaller components
 Splitting a component into smaller components is a common practice in React to enhance code readability, maintainability, and reusability. Here are some steps and best practices to effectively split components:
 1. **Identify Logical Units**: Look for sections of your component that can be logically separated based on functionality or UI structure. For example, if you have a form with multiple input fields, each field can be a separate component.
@@ -242,8 +270,16 @@ Splitting a component into smaller components is a common practice in React to e
 5. **Use Composition**: React encourages composition over inheritance. Instead of creating complex class hierarchies, use functional components and compose them together to build your UI.
 6. **Keep Components Focused**: Each component should have a single responsibility. If a component is doing too much, consider breaking it down further. This makes testing and debugging easier.
 
+<div align="right">
+    <b><a href="#table-of-contents">↥ back to top</a></b>
+</div>
+
 ## Pure Components
 Is a type of component in React that only re-renders when its props or state change. Pure components implement a shallow comparison of props and state, which can lead to performance optimizations by preventing unnecessary re-renders.
+
+<div align="right">
+    <b><a href="#table-of-contents">↥ back to top</a></b>
+</div>
 
 ## Prop drilling
 Prop drilling, refers to the process of passing data through multiple layers of components in React. This can lead to cumbersome code and make it difficult to manage state, especially when the data needs to be accessed by deeply nested components.
@@ -252,5 +288,13 @@ Prop drilling, refers to the process of passing data through multiple layers of 
 2. **State Management Libraries**: Libraries like Redux, MobX, or Zustand provide a more structured way to manage global state and avoid prop drilling. They allow you to store state in a central location and access it from any component without passing props through every level.
 3. **Composition**: Instead of passing props through multiple layers, you can compose components in a way that allows them to access the necessary data directly from their parent or a higher-level component.
 
+<div align="right">
+    <b><a href="#table-of-contents">↥ back to top</a></b>
+</div>
+
 ## Higher-order components
 Higher-order components (HOCs) are functions that take a component and return a new component with additional functionality. They are a pattern in React for reusing component logic. HOCs can be used to enhance components by adding features like logging, data fetching, or state management without modifying the original component.
+
+<div align="right">
+    <b><a href="#table-of-contents">↥ back to top</a></b>
+</div>
