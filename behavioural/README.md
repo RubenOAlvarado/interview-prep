@@ -45,9 +45,15 @@ Remember to highlight your passion and enthusiasm for the role and the company. 
 
 ### Videos
 
+- **The best "Elevator Pitch" of the World?**
 [![The best "Elevator Pitch" of the World?](https://img.youtube.com/vi/FrIfes1L7NI/0.jpg)](https://www.youtube.com/watch?v=FrIfes1L7NI)
+*Haz clic en la imagen para ver el vídeo.*
+- **The Perfect Elevator Pitch - Best Examples and Templates**
 [![The Perfect Elevator Pitch - Best Examples and Templates](https://img.youtube.com/vi/r-iETptU7JY/0.jpg)](https://www.youtube.com/watch?v=r-iETptU7JY)
+*Haz clic en la imagen para ver el vídeo.*
+- **How to write a Killer Elevator Pitch - 2025**
 [![How to write a Killer Elevator Pitch - 2025](https://img.youtube.com/vi/vksBO0AI0qM/0.jpg)](https://www.youtube.com/watch?v=vksBO0AI0qM)
+*Haz clic en la imagen para ver el vídeo.*
 
 
 ## Resources
