@@ -43,18 +43,30 @@ An elevator pitch is a brief, persuasive speech that you can use to spark intere
 
 Remember to highlight your passion and enthusiasm for the role and the company. Practice your elevator pitch to ensure it flows naturally and fits within a 30-60 second timeframe.
 
-### Videos
+## 🎥 Video Gallery: Mastering the Elevator Pitch
 
-- **The best "Elevator Pitch" of the World?**
-[![The best "Elevator Pitch" of the World?](https://img.youtube.com/vi/FrIfes1L7NI/0.jpg)](https://www.youtube.com/watch?v=FrIfes1L7NI)
-*Haz clic en la imagen para ver el vídeo.*
-- **The Perfect Elevator Pitch - Best Examples and Templates**
-[![The Perfect Elevator Pitch - Best Examples and Templates](https://img.youtube.com/vi/r-iETptU7JY/0.jpg)](https://www.youtube.com/watch?v=r-iETptU7JY)
-*Haz clic en la imagen para ver el vídeo.*
-- **How to write a Killer Elevator Pitch - 2025**
-[![How to write a Killer Elevator Pitch - 2025](https://img.youtube.com/vi/vksBO0AI0qM/0.jpg)](https://www.youtube.com/watch?v=vksBO0AI0qM)
-*Haz clic en la imagen para ver el vídeo.*
+### 🔝 Featured Videos
 
+#### 1. The World's Best Elevator Pitch  
+[![The best "Elevator Pitch" of the World?](https://img.youtube.com/vi/FrIfes1L7NI/0.jpg)](https://www.youtube.com/watch?v=FrIfes1L7NI)  
+*"We're talking about taking the benefits of electric transportation to the next level..."*  
+📌 **Click the image to watch** | 🕒 2:15 min  
+
+---
+
+#### 2. Crafting the Perfect Elevator Pitch  
+[![The Perfect Elevator Pitch - Examples](https://img.youtube.com/vi/r-iETptU7JY/0.jpg)](https://www.youtube.com/watch?v=r-iETptU7JY)  
+*Professional templates and real-world examples*  
+📌 **Click to view** | 🕒 4:30 min  
+
+---
+
+#### 3. 2025 Guide: Killer Elevator Pitch  
+[![How to write a Killer Elevator Pitch](https://img.youtube.com/vi/vksBO0AI0qM/0.jpg)](https://www.youtube.com/watch?v=vksBO0AI0qM)  
+*Modern techniques for the digital age*  
+📌 **Click to learn** | 🕒 3:42 min  
+
+---
 
 ## Resources
 - [Behavioral Interview Questions](https://www.thebalancecareers.com/behavioral-interview-questions-2061230)
