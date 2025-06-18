@@ -32,6 +32,10 @@ This section provides language-specific resources, including frequently asked qu
     ### Frameworks
    - [React](./javascript/react/README.md)
    - [Node.js](./javascript/nodejs/README.md)
+### Go
+- [Go](./go/README.md)
+### Typescript
+- [Typescript](./typescript/README.md)
 
 
 ## 🤝 Contributing
